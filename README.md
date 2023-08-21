@@ -1,9 +1,20 @@
 # theme-name
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&colorA=338fbb&colorB=1c1c1c&logoColor=ffffff)](https://github.com/odestry/contribute)
+[![Discord Shield](https://img.shields.io/discord/983602196493004820?style=flat&colorA=338fbb&colorB=1c1c1c&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/blanklob-community-983602196493004820)
 
 [Contributing](#contributing) |
 [License](#license)
+
+An opinionated lightweight Shopify theme starter for all projects.
+
+## Usage
+
+### Getting started
+
+To get started, you can click the **Use this template** button to create a new repository based on this template.
+
+## Tools
 
 There are a number of really useful tools that the Shopify Themes team uses during development. Dawn is already set up to work with these tools.
 
@@ -16,8 +27,6 @@ You can follow this [quick start guide for theme developers](https://github.com/
 ### Theme Check
 
 We recommend using [Theme Check](https://github.com/shopify/theme-check) as a way to validate and lint your Shopify themes.
-
-We've added Theme Check to Dawn's [list of VS Code extensions](/.vscode/extensions.json) so if you're using Visual Studio Code as your code editor of choice, you'll be prompted to install the [Theme Check VS Code](https://marketplace.visualstudio.com/items?itemName=Shopify.theme-check-vscode) extension upon opening VS Code after you've forked and cloned Dawn.
 
 You can also run it from a terminal with the following Shopify CLI command:
 
@@ -39,7 +48,7 @@ Dawn runs [Theme Check](#Theme-Check) on every commit via [Shopify/theme-check-a
 
 ## Contributing
 
-We'd love your help! Please read our [contributing guide](./CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements.
+We'd love your help! Please read our [contributing guide](https://github.com/odestry/contribute) to learn about our development process, how to propose bug fixes and improvements.
 
 ## License
 
