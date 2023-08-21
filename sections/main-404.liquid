@@ -1,15 +1,15 @@
-<section class="grid items-center py-12 md:py-20 lg:py-28">
+<section class="grid items-center py-12 md:py-16 lg:py-20">
   <div class="container px-4 mx-auto flex flex-col items-start gap-4 md:gap-5">
     <h1 class="max-w-xl scroll-m-20 text-4xl font-medium tracking-tight lg:text-5xl">
       {{ section.settings.heading }}
     </h1>
-    <p class="max-w-prose text-lg">
+    <p class="max-w-prose text-xl text-gray-500">
       {{ section.settings.text }}
     </p>
     {% if section.settings.button_label != blank %}
       <a
-        class="inline-flex items-center justify-center px-4 h-11 rounded-sm text-white bg-black"
-        href="{{ routes.all_products_collection_url }}">
+        class="inline-flex items-center justify-center px-6 h-11 font-medium rounded-sm text-white bg-black"
+        href="{{ routes.root_url }}">
         {{ section.settings.button_label }}
       </a>
     {% endif %}
@@ -36,7 +36,7 @@
       "type": "text",
       "id": "button_label",
       "label": "Button Label",
-      "default": "Continue Shopping"
+      "default": "Go to Home"
     }
   ]
 }

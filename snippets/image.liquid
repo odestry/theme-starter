@@ -18,7 +18,7 @@
 {% endcomment %}
 
 {% liquid
-  assign image_class = 'aspect-auto h-auto w-full rounded-lg object-cover ' | append: class
+  assign image_class = 'aspect-auto h-auto w-full rounded-sm object-cover ' | append: class
   assign alt = alt | default: image.alt | escape
 
   assign priority = 'auto'

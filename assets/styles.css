@@ -744,8 +744,11 @@ video {
 .h-auto {
   height: auto;
 }
+.h-\[50vh\] {
+  height: 50vh;
+}
 .min-h-screen {
-  min-height: var(--screen-height, 100vh);
+  min-height: 100vh;
 }
 .w-1 {
   width: 0.25rem;
@@ -1160,9 +1163,6 @@ video {
 }
 .justify-items-stretch {
   justify-items: stretch;
-}
-.gap-0 {
-  gap: 0px;
 }
 .gap-4 {
   gap: 1rem;
@@ -1673,6 +1673,10 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -2009,6 +2013,7 @@ video {
 .\[vite\:html\] {
   vite: html;
 }
+
 @media (min-width: 640px) {
 
   .sm\:container {
@@ -2050,29 +2055,37 @@ video {
     }
   }
 }
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
+
 .before\:hover\:text-center:hover::before {
   content: var(--tw-content);
   text-align: center;
 }
+
 .hover\:before\:text-center:hover::before {
   content: var(--tw-content);
   text-align: center;
 }
+
 .focus\:hover\:text-center:hover:focus {
   text-align: center;
 }
+
 .hover\:focus\:text-center:focus:hover {
   text-align: center;
 }
+
 .disabled\:cursor-not-allowed:disabled {
   cursor: not-allowed;
 }
+
 .disabled\:opacity-60:disabled {
   opacity: 0.6;
 }
+
 @media (min-width: 640px) {
 
   .sm\:block {
@@ -2087,6 +2100,7 @@ video {
     text-decoration-line: underline;
   }
 }
+
 @media (min-width: 768px) {
 
   .md\:block {
@@ -2111,6 +2125,7 @@ video {
     padding-bottom: 5rem;
   }
 }
+
 @media (min-width: 1024px) {
 
   .lg\:block {
@@ -2123,6 +2138,10 @@ video {
 
   .lg\:h-\[30rem\] {
     height: 30rem;
+  }
+
+  .lg\:h-\[35rem\] {
+    height: 35rem;
   }
 
   .lg\:py-20 {
@@ -2139,11 +2158,18 @@ video {
     font-size: 3rem;
     line-height: 1;
   }
+}
 
-  :is(.dark .dark\:lg\:hover\:\[paint-order\:markers\]:hover) {
-    paint-order: markers;
+@media (prefers-color-scheme: dark) {
+
+  @media (min-width: 1024px) {
+
+    .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
+      paint-order: markers;
+    }
   }
 }
+
 @media (min-width: 1280px) {
 
   .xl\:block {
@@ -2154,6 +2180,7 @@ video {
     display: none;
   }
 }
+
 @media (min-width: 1536px) {
 
   .\32xl\:block {
