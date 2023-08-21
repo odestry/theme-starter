@@ -1,8 +1,9 @@
-# theme-name
+# Theme starter
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&colorA=338fbb&colorB=1c1c1c&logoColor=ffffff)](https://github.com/odestry/contribute)
 [![Discord Shield](https://img.shields.io/discord/983602196493004820?style=flat&colorA=338fbb&colorB=1c1c1c&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/blanklob-community-983602196493004820)
 
+[Usage](#usage) |
 [Contributing](#contributing) |
 [License](#license)
 
@@ -16,7 +17,7 @@ To get started, you can click the **Use this template** button to create a new r
 
 ## Tools
 
-There are a number of really useful tools that the Shopify Themes team uses during development. Dawn is already set up to work with these tools.
+There are a number of really useful tools during development. This theme is already set up to work with these tools.
 
 ### Shopify CLI
 
@@ -36,15 +37,15 @@ shopify theme check
 
 ### Continuous Integration
 
-Dawn uses [GitHub Actions](https://github.com/features/actions) to maintain the quality of the theme. [This is a starting point](https://github.com/Shopify/dawn/blob/main/.github/workflows/ci.yml) and what we suggest to use in order to ensure you're building better themes. Feel free to build off of it!
+This starter uses [GitHub Actions](https://github.com/features/actions) to maintain the quality of the theme. [This is a starting point](https://github.com/odestry/theme-starter/blob/main/.github/workflows/ci.yml) and what we suggest to use in order to ensure you're building better themes.
 
-#### Shopify/lighthouse-ci-action
+#### `Shopify/lighthouse-ci-action`
 
-We love fast websites! Which is why we created [Shopify/lighthouse-ci-action](https://github.com/Shopify/lighthouse-ci-action). This runs a series of [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) audits for the home, product and collections pages on a store to ensure code that gets added doesn't degrade storefront performance over time.
+You can also use [Shopify/lighthouse-ci-action](https://github.com/Shopify/lighthouse-ci-action). This runs a series of [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) audits for the home, product and collections pages on a store to ensure code that gets added doesn't degrade storefront performance over time.
 
-#### Shopify/theme-check-action
+#### `Shopify/theme-check-action`
 
-Dawn runs [Theme Check](#Theme-Check) on every commit via [Shopify/theme-check-action](https://github.com/Shopify/theme-check-action).
+This starter runs [Theme Check](https://github.com/Shopify/theme-check-action) on every commit via [Shopify/theme-check-action](https://github.com/Shopify/theme-check-action).
 
 ## Contributing
 
