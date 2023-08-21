@@ -23,12 +23,12 @@
   <body class="min-h-screen">
     <main
       id="MainContent"
-      class="flex flex-col gap-0 outline-none"
+      class="flex flex-col outline-none"
       tabindex="-1">
       {{ content_for_layout }}
     </main>
 
-    {% render 'development-indicator' %}
+    {% render 'development-screen-indicator' %}
 
     <script>
       window.shopUrl = '{{ request.origin }}'
@@ -43,9 +43,6 @@
 
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js')
       if (Shopify.designMode) document.documentElement.classList.add('design-mode')
-      new ResizeObserver(entries =>
-        document.documentElement.style.setProperty('--screen-height', `${entries[0].contentRect.height}px`)
-      ).observe(document.documentElement)
     </script>
   </body>
 </html>

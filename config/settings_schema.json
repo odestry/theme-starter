@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Sandbox",
+    "theme_name": "Theme Name",
     "theme_version": "0.1.0",
-    "theme_author": "Blanklob",
-    "theme_documentation_url": "https://blanklob.com",
-    "theme_support_url": "https://blanklob.com"
+    "theme_author": "Odestry",
+    "theme_documentation_url": "https://odestry.blanklob.com",
+    "theme_support_url": "https://odestry.blanklob.com"
   },
   {
     "name": "Typography",
@@ -32,7 +32,7 @@
       {
         "type": "font_picker",
         "id": "font_body",
-        "default": "inter_n4",
+        "default": "inter_n5",
         "label": "Font",
         "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
       }
