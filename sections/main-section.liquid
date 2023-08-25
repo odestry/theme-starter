@@ -7,11 +7,15 @@
     <p class="max-w-prose text-xl text-gray-500">
       {{ section.settings.text }}
     </p>
-    {% if section.settings.label != blank %}
+    {% if section.settings.button_label != blank %}
       <a
-        href="{{ routes.root_url }}"
+        {% if section.settings.button_link != blank %}
+          href="{{ section.settings.button_link }}"
+        {% else %}
+          href="{{ routes.root_url }}"
+        {% endif %}
         class="inline-flex items-center justify-center px-6 h-11 font-medium rounded-sm text-white bg-black">
-        {{ section.settings.label }}
+        {{ section.settings.button_label }}
       </a>
     {% endif %}
   </div>
@@ -40,9 +44,14 @@
     },
     {
       "type": "text",
-      "id": "label",
+      "id": "button_label",
       "label": "Button Label",
       "default": "Get Started"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
     }
   ]
 }
