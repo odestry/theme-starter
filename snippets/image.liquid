@@ -14,7 +14,7 @@
 {% endcomment %}
 
 {% liquid
-  assign image_class = 'aspect-auto h-auto w-full rounded-sm object-cover ' | append: class
+  assign class = 'aspect-auto h-auto w-full rounded-sm object-cover ' | append: class
   assign alt = alt | default: image.alt | escape
 
   assign priority = 'auto'
@@ -29,14 +29,14 @@
   endif
 %}
 
-<picture class="{{ image_class }}">
+<picture class="{{ class }}">
   {% if image and image != blank %}
     {{
       image
       | image_url: width: image.width
       | image_tag:
-        alt: image_alt,
-        class: image_class,
+        alt: alt,
+        class: class,
         widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200',
         loading: loading,
         fetchpriority: priority,
@@ -50,7 +50,7 @@
 
     <img
       role="presentation"
-      class="{{ image_class }}"
+      class="{{ class }}"
       src="{{ placeholder_image }}"
       alt="{{ placeholder_name }}"
       width="800"
