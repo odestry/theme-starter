@@ -9,6 +9,7 @@ yarn.lock
 # Editor directories and files
 .idea
 dist
+.vscode
 
 # Misc
 .DS_Store
