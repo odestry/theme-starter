@@ -1,11 +1,11 @@
 {
-  "name": "sandbox",
+  "name": "theme-name",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "run-p -sr shopify:dev watch",
     "shopify:dev": "shopify theme dev -e development",
-    "pull": "shopify theme pull -d -o sections/*.json templates/*.json config/*.json",
+    "pull": "shopify theme pull -d -o sections/*.json templates/**/*.json config/*.json",
     "watch": "vite build --watch",
     "build": "vite build --minify"
   },
