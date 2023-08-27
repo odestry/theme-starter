@@ -35,7 +35,7 @@
     {% liquid
       assign font_body_semi_bold = settings.font_body | font_modify: 'weight', '500'
       assign font_body_bold = settings.font_body | font_modify: 'weight', 'bold'
-      assign font_body_italic = font_body | font_modify: 'style', 'italic'
+      assign font_body_italic = settings.font_body | font_modify: 'style', 'italic'
       assign font_body_bold_italic = font_body_bold | font_modify: 'style', 'italic'
     %}
 
