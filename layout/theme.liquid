@@ -14,11 +14,11 @@
 
     {% render 'typography' %}
 
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    {{ 'styles.css' | asset_url | stylesheet_tag: preload: true }}
 
     {{ content_for_header }}
 
-    {{ 'styles.css' | asset_url | stylesheet_tag: preload: true }}
+    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
   </head>
   <body class="grid min-h-screen">
     <header class="container mx-auto px-4 py-2 lg:py-4">

@@ -18,9 +18,9 @@
 
     {% render 'typography' %}
 
-    {{ content_for_header }}
-
     {{ 'styles.css' | asset_url | stylesheet_tag: preload: true }}
+
+    {{ content_for_header }}
   </head>
   <body>
     <main

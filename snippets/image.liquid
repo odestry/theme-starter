@@ -15,7 +15,7 @@
 {% endcomment %}
 
 {% liquid
-  assign class = 'aspect-auto h-auto w-full object-cover ' | append: class
+  assign class = 'aspect-auto h-auto w-full object-cover rounded-sm ' | append: class
   assign alt = alt | default: image.alt | escape
 
   assign lazyload = lazyload | default: false

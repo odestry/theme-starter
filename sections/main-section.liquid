@@ -4,7 +4,7 @@
   <div class="container mx-auto px-4 flex flex-col items-start gap-4 md:gap-5">
     {% liquid
       assign image = section.settings.image | default: page_image
-      render 'image' with image, class: 'h-[50vh] lg:h-[30rem]'
+      render 'image' with image, class: 'aspect-square md:aspect-auto lg:h-[30rem]', preload: true
     %}
     <h1 class="max-w-xl scroll-m-20 text-4xl font-medium tracking-tight lg:text-5xl">
       {{ section.settings.heading }}
