@@ -1,1 +1,1 @@
-console.log('global.js')
+console.log('Hello from global.js')
