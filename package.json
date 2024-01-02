@@ -9,7 +9,7 @@
     "pull": "shopify theme pull -d -o sections/*.json templates/*.json templates/customers/*.json config/settings_data.json",
     "watch": "vite build -w",
     "build": "vite build --minify",
-    "relase": "bumpp"
+    "release": "bumpp"
   },
   "devDependencies": {
     "@shopify/cli": "latest",
