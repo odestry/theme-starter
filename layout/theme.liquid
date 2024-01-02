@@ -24,7 +24,7 @@
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
   </head>
-  <body class="grid min-h-screen">
+  <body class="grid min-h-svh">
     <header class="sticky top-0 container mx-auto px-4 flex justify-between items-center py-2 lg:py-4">
       <a href="{{ routes.root_url }}" class="font-medium text-lg lg:text-xl no-underline">
         {{ shop.name }}
@@ -59,7 +59,6 @@
       };
 
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-      if (Shopify.designMode) document.documentElement.classList.add('design-mode');
     </script>
   </body>
 </html>
