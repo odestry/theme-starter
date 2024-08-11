@@ -1,4 +1,4 @@
-# theme-name
+# `theme-name`
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&colorA=338fbb&colorB=1c1c1c&logoColor=ffffff)](https://github.com/odestry/.github/blob/main/CONTRIBUTING.md)
 [![CI](https://img.shields.io/github/actions/workflow/status/odestry/theme-starter/ci.yml?style=flat&label=CI&colorA=338fbb&colorB=1c1c1c&logoColor=ffffff)](https://github.com/odestry/theme-starter/blob/main/.github/workflows/ci.yml)
@@ -7,6 +7,7 @@
 [Usage](#usage) |
 [Tools](#tools) |
 [Contributing](#contributing) |
+[About](#about) |
 [License](#license)
 
 An opinionated lightweight theme starter for all projects.
@@ -88,6 +89,10 @@ This theme runs [Theme Check](https://github.com/Shopify/theme-check-action) on 
 
 We'd love your help! Please read our [contributing guide](https://github.com/odestry/.github/blob/main/CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements.
 
+## About
+
+Odestry isn't just a community; it's a group of dedicated folks all aiming to build better commerce together. Our mission is to create a supportive and open space where anyone, regardless of experience, can connect, learn, and grow. Here, you'll get inspired, have real talks, and find plenty of resources and open source tools to help you build. Whether you're looking to network, find opportunities, or just have meaningful conversations, join us and be part of a community that values authenticity, collaboration, and innovation. [Learn more](https://odestry.com).
+
 ## License
 
-Copyright (c) 2023-present Odestry. See [LICENSE](/LICENSE.md) for further details.
+Copyright (c) 2024-present Odestry. See [LICENSE](/LICENSE.md) for further details.
