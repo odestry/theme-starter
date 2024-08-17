@@ -1,5 +1,5 @@
 {
-  "name": "theme-name",
+  "name": "theme-starter",
   "version": "1.0.2",
   "type": "module",
   "private": true,
@@ -24,4 +24,5 @@
     "pull": "shopify theme pull -d -o sections/*.json templates/*.json templates/customers/*.json config/settings_data.json",
     "build": "vite build",
     "release": "bumpp"
-  }}
+  }
+}

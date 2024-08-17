@@ -1,3 +1,5 @@
-import './styles.css';
-console.log('hello world')
+import '~/styles/tailwind.css';
 
+import { counter } from '~/components'
+
+console.log(counter(1))
