@@ -1,16 +1,14 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
+import shopify from 'vite-plugin-shopify';
 
 export default defineConfig({
+  plugins: [
+    shopify({
+      additionalEntrypoints: ['entry.theme.js'],
+      snippetFile: 'entry.liquid'
+    }),
+  ],
   build: {
-    outDir: 'assets',
-    emptyOutDir: false,
-    minify: false,
-    rollupOptions: {
-      input: 'styles.css',
-      output: {
-        dir: 'assets',
-        assetFileNames: '[name][extname]',
-      }
-    }
+    emptyOutDir: false
   }
-})
+});
