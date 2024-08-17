@@ -1,11 +1,11 @@
 {
   "entry.theme.js": {
-    "file": "entry.theme-wmMd1VD6.js",
+    "file": "entry.theme.DAmrlBVT.min.js",
     "name": "entry.theme",
     "src": "entry.theme.js",
     "isEntry": true,
     "css": [
-      "entry-DJqbQjLU.css"
+      "entry.DJqbQjLU.min.css"
     ]
   }
 }
